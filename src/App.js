@@ -2,10 +2,9 @@ import "./App.css";
 import Background from "./Components/Background";
 import Intro from "./Components/Intro";
 import Astronaut from "./Components/Astronaut";
+import Meteor from "./Components/Meteor";
 import Navbar from "./Components/Navbar";
 import CheckEvents from "./Components/CheckEvents";
-
-
 function App() {
   return (
     <div className="App">
@@ -19,7 +18,10 @@ function App() {
           <Astronaut />
         </div>
       </section>
-      <CheckEvents />
+          <CheckEvents />
+      <section className="page3">
+        <Meteor />
+      </section>
     </div>
   );
 }
