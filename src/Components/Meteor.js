@@ -18,9 +18,9 @@ const Meteor = () => {
       </div>
       <div className="single-meteor">
         <div className="left">
-          <div class="container">
-            <div class="box">
-              <span class="title">Meteor Title</span>
+          <div className="container">
+            <div className="box">
+              <span className="title">Meteor Title</span>
               <div>
                 <p>summary</p>
                 <span>Date</span>
@@ -29,7 +29,7 @@ const Meteor = () => {
           </div>
         </div>
         <div className="right">
-          <img src="assets\images\earth.gif" alt="" />
+          <img src="assets\images\earth-1.gif" alt="" />
         </div>
       </div>
     </div>

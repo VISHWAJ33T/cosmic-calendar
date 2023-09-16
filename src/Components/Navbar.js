@@ -10,7 +10,7 @@ export default function Navbar() {
                     <img src={img} alt="" />
                 </div>
                 <ul>
-                    <li><a href="/">METEOR</a></li>
+                    <li><a href="#meteor">METEOR</a></li>
                     <li><a href="/">SOLAR ECLIPSE</a></li>
                     <li><a href="/">WEATHER</a></li>
                 </ul>

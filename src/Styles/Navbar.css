@@ -13,8 +13,8 @@
 .logo img {
     position: absolute;
     top: 40px;
-    left: 30px;
-    animation: moveUpDown 4s linear infinite;
+    left: 70px;
+    /* animation: moveUpDown 4s linear infinite; */
 }
 
 @keyframes moveUpDown {
