@@ -2,6 +2,7 @@ import "./App.css";
 import Background from "./Components/Background";
 import Intro from "./Components/Intro";
 import Astronaut from "./Components/Astronaut";
+import Meteor from "./Components/Meteor";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,9 @@ function App() {
         <div className="svgs">
           <Astronaut />
         </div>
+      </section>
+      <section className="page3">
+        <Meteor />
       </section>
     </div>
   );
