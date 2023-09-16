@@ -1,17 +1,12 @@
 import React from "react";
 import "../Styles/intro.css";
 
-
-
 const Intro = () => {
   return (
     <div className="cards">
       <div className="card">
         <div className="card_title">
-          <h1>Lorem, ipsum dolor.</h1>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab sequi
-          quia perferendis qui exercitationem itaque fuga vitae facere quo
-          cumque?
+          <h1 className="Title">Explore the Universe, One day at a time.</h1>
         </div>
       </div>
     </div>

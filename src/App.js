@@ -4,6 +4,7 @@ import Background from "./Components/Background";
 import Intro from "./Components/Intro";
 import Astronaut from "./Components/Astronaut";
 import Meteor from "./Components/Meteor";
+import Weather from "./Components/Weather";
 import Input from "./Components/Input.js";
 import Navbar from "./Components/Navbar";
 import { useState, useEffect } from "react";
@@ -32,9 +33,6 @@ function App() {
     } catch (error) {
       console.log("error");
     }
-    //  finally {
-    //   // setLoading(false);
-    // }
   };
 
   useEffect(() => {
@@ -60,6 +58,10 @@ function App() {
 
       <section id="meteor" className="page3">
         <Meteor />
+      </section>
+
+      <section id="weather" className="page3">
+        <Weather />
       </section>
     </div>
   );

@@ -3,6 +3,7 @@ import "../Styles/Input.css";
 const Input = () => {
   return (
     <div>
+        {/* <h2 className="meteor-heading">Meteor Shower</h2> */}
       <div className="input-container">
         <div className="left">
           <img src="assets\images\earth-2.gif" alt="" />
