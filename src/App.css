@@ -1,0 +1,11 @@
+.page1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.svgs{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
