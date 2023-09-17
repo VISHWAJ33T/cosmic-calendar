@@ -6,7 +6,7 @@
 }
 
 .input-heading {
-    padding-top: 10px;
+    padding-top: 100px;
     text-align: center;
     font-size: 50px;
     font-family: monospace;
@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px 30px 30px 0px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .page2 .left img {
@@ -42,6 +42,10 @@
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
+}
+
+.location-box:hover {
+    box-shadow: -5px 5px 10px rgba(255, 255, 255, 0.6);
 }
 
 .location-box .user-box {
@@ -161,5 +165,21 @@
     .location-box {
         background: #25293ef0;
 
+    }
+
+    .location-box:hover {
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+    }
+}
+
+@media (max-width: 1200px) {
+    .input-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .input-heading {
+        font-size: 2rem;
     }
 }

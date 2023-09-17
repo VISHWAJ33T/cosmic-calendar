@@ -7,8 +7,8 @@ ul {
 /*--------------star animation--------------------*/
 
 html {
-    height: 100%;
-    overflow: auto;
+    height: 120%;
+    overflow: scroll;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;

@@ -7,6 +7,7 @@
 
 .upcoming-meteors {
     display: flex;
+    padding: 30px 20px;
     width: 100%;
     flex-wrap: wrap;
     gap: 20px;
@@ -15,13 +16,14 @@
 
 .single-meteor {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .page3 .left {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 50px 50px;
     height: 100%;
     gap: 50px;
@@ -30,38 +32,15 @@
 .container {
     position: relative;
     font-family: sans-serif;
-}
-
-.container::before,
-.container::after {
-    content: "";
-    background-color: #fab5704c;
-    /* position: absolute; */
-}
-
-.container::before {
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    top: 30%;
-    right: 7%;
-}
-
-.container::after {
-    content: "";
-    position: absolute;
-    height: 3rem;
-    top: 8%;
-    right: 5%;
-    border: 1px solid;
+    max-width: 500px;
 }
 
 .container .box {
     width: 100%;
     height: 100%;
     padding: 3rem;
-    background-color: rgba(255, 255, 255, 0.074);
-    border: 1px solid rgba(255, 255, 255, 0.222);
+    background-color: #25293ed6;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border-radius: .7rem;
@@ -103,8 +82,7 @@
 }
 
 .container .box:hover {
-    box-shadow: 0px 0px 20px 1px #ffbb763f;
-    border: 1px solid rgba(255, 255, 255, 0.454);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.6);
 }
 
 .page3 .right {
@@ -116,8 +94,58 @@
 }
 
 .page3 .right img {
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     z-index: 100;
     object-fit: cover;
     border-radius: 100%;
+}
+
+@media (max-width: 1200px) {
+    .meteor-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .meteor-heading {
+        font-size: 2rem;
+    }
+
+    .page3 {
+        padding: 0px;
+    }
+
+    .page3 .left {
+        padding: 0;
+        padding: 0 15px;
+    }
+
+    .page3 .right img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .page3 .left {
+        position: absolute;
+        z-index: 1000;
+        margin: 60px auto;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .page3 .right {
+        position: absolute;
+        margin: 60px auto;
+        width: 100%;
+    }
+
+    .container .box:hover {
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
+    }
+
 }
