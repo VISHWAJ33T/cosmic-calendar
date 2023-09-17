@@ -8,7 +8,6 @@ const Astronaut = () => {
         src="assets/images/astronaut.png"
         alt="astronaut"
       />
-      {/* <img className="earth" src="assets/images/earth-1.gif" alt="earth" /> */}
     </div>
   );
 };

@@ -4,7 +4,7 @@ const Meteor = () => {
   return (
     <div>
       <h2 className="meteor-heading">Meteor Shower</h2>
-      <div className="upcoming-meteors">
+      {/* <div className="upcoming-meteors">
         <a href="">Button</a>
         <a href="">Button</a>
         <a href="">Button</a>
@@ -15,7 +15,7 @@ const Meteor = () => {
         <a href="">Button</a>
         <a href="">Button</a>
         <a href="">Button</a>
-      </div>
+      </div> */}
       <div className="single-meteor">
         <div className="left">
           <div className="container">
@@ -29,7 +29,7 @@ const Meteor = () => {
           </div>
         </div>
         <div className="right">
-          <img src="assets\images\earth-1.gif" alt="" />
+          <img src="assets\images\disco-moon.gif" alt="" />
         </div>
       </div>
     </div>

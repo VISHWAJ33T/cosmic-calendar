@@ -5,8 +5,16 @@
     align-items: center;
 }
 
+.input-heading {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 800;
+}
+
 .page2 .left {
-    width: 50%;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,27 +24,31 @@
 }
 
 .page2 .left img {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
     z-index: 100;
     width: 400px;
     border-radius: 100%;
 }
 
 
-.login-box {
+.location-box {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0px 15px;
     width: 500px;
     padding: 40px;
-    background: rgba(50, 50, 50, 0.987);
+    background: #25293e;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
 }
 
-.login-box .user-box {
+.location-box .user-box {
     position: relative;
 }
 
-.login-box .user-box input {
+.location-box .user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -48,7 +60,7 @@
     background: transparent;
 }
 
-.login-box .user-box label {
+.location-box .user-box label {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,15 +71,15 @@
     transition: .5s;
 }
 
-.login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
+.location-box .user-box input:focus~label,
+.location-box .user-box input:valid~label {
     top: -20px;
     left: 0;
     color: #bdb8b8;
     font-size: 12px;
 }
 
-.login-box form a {
+.location-box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -81,7 +93,7 @@
     letter-spacing: 4px
 }
 
-.login-box a:hover {
+.location-box a:hover {
     background: #c4cfd6;
     color: #fff;
     border-radius: 5px;
@@ -91,7 +103,7 @@
         0 0 100px #c4cfd6;
 }
 
-.login-box a span {
+.location-box a span {
     position: absolute;
     display: block;
 }
@@ -107,11 +119,47 @@
     }
 }
 
-.login-box a span:nth-child(1) {
+.location-box a span:nth-child(1) {
     bottom: 2px;
     left: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg, transparent, #c4cfd6);
     animation: btn-anim1 2s linear infinite;
+}
+
+.page2 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    z-index: 100;
+}
+
+@media (max-width: 1000px) {
+    .page2 {
+        background-image: url("../../public/assets/images/earth-1.gif");
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    }
+
+    .input-heading {
+        padding-top: 0;
+        padding: 10px 50px 50px 10px;
+    }
+
+    .page2 .left {
+        display: none;
+    }
+
+    .page2 .right {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .location-box {
+        background: #25293ef0;
+
+    }
 }

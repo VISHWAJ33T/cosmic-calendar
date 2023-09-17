@@ -5,10 +5,10 @@ const Meteor = () => {
     <div className="weather">
       <h2 className="meteor-heading">Weather Forcast</h2>
       <div className="single-meteor">
-        <div class="cardContainer">
-          <div class="card">
-            <p class="city">Chandigarh</p>
-            <p class="weather">MOSTYLE CLOUDY</p>
+        <div className="cardContainer">
+          <div className="card">
+            <p className="city">Chandigarh</p>
+            <p className="weather">MOSTYLE CLOUDY</p>
             <svg
               viewBox="0 0 100 100"
               height="50px"
@@ -17,7 +17,7 @@ const Meteor = () => {
               x="0px"
               id="Layer_1"
               version="1.1"
-              class="weather"
+              className="weather"
             >
               {" "}
               <image
@@ -29,15 +29,15 @@ const Meteor = () => {
                 id="image0"
               ></image>
             </svg>
-            <p class="temp">28°</p>
-            <div class="minmaxContainer">
-              <div class="min">
-                <p class="minHeading">Min</p>
-                <p class="minTemp">26°</p>
+            <p className="temp">28°</p>
+            <div className="minmaxContainer">
+              <div className="min">
+                <p className="minHeading">Min</p>
+                <p className="minTemp">26°</p>
               </div>
-              <div class="max">
-                <p class="maxHeading">Max</p>
-                <p class="maxTemp">33°</p>
+              <div className="max">
+                <p className="maxHeading">Max</p>
+                <p className="maxTemp">33°</p>
               </div>
             </div>
           </div>

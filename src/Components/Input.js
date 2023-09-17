@@ -3,13 +3,13 @@ import "../Styles/Input.css";
 const Input = () => {
   return (
     <div>
-        {/* <h2 className="meteor-heading">Meteor Shower</h2> */}
+      <h2 className="input-heading">Location</h2>
       <div className="input-container">
         <div className="left">
-          <img src="assets\images\earth-2.gif" alt="" />
+          <img src="assets\images\earth-1.gif" alt="" />
         </div>
         <div className="right">
-          <div className="login-box">
+          <div className="location-box">
             <form>
               <div className="user-box">
                 <input type="text" required />

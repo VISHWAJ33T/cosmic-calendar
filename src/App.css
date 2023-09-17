@@ -6,8 +6,10 @@
     font-family: 'Ubuntu Mono', 'Montserrat', 'Monospace', 'Caveat', 'Dancing Script';
 }
 
-html {
+html,
+body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a {
@@ -17,16 +19,26 @@ a {
 
 .page1 {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap-reverse;
     min-height: 100vh;
 }
 
+.intro-text {
+    width: 50vw;
+    height: calc(100vh - 120px);
+}
+
 .svgs {
+    max-width: 50vw;
+    width: fit-content;
+    height: calc(100vh - 120px);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.page2 {
+    min-height: 100vh;
 }
 
 .page3 {
