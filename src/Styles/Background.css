@@ -7,11 +7,12 @@ ul {
 /*--------------star animation--------------------*/
 
 html {
-    height: 120%;
-    overflow: scroll;
+    height: fit-content;
+    overflow: visible;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
+    /* background-attachment: fixed; */
     background-position: center;
 }
 
@@ -578,7 +579,7 @@ html {
     }
 
     to {
-        transform: translateY(-2000px);
+        transform: translateY(-300vh);
     }
 }
 
