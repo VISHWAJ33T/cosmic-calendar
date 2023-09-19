@@ -1,8 +1,9 @@
-.weather .meteor-heading {
+.weather .weather-heading {
     text-align: center;
     font-size: 50px;
     font-family: monospace;
     font-weight: 800;
+    padding: 50px;
 }
 
 .weather .cardContainer {
@@ -25,10 +26,16 @@
     justify-content: space-between;
     padding: 20px 10px;
     border-radius: 10px;
-    backdrop-filter: blur(30px);
-    background-color: rgba(65, 65, 65, 0.308);
+    background-color: #25293ed6;
+    box-shadow: 0 15px 25px #00000099;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.089);
-    cursor: pointer;
+    cursor: default;
+}
+
+.weather .card:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
 }
 
 .weather .city {

@@ -26,9 +26,13 @@ export default function Navbar() {
           METEOR
         </a>
         <a href="#" className="nav-item" style={{ "--i": "1" }}>
-          SOLAR ECLIPSE
+          ECLIPSE
         </a>
-        <a href="#weather" className="nav-item" style={{ "--i": "2" }}>
+        <a
+          href="#weather"
+          className="nav-item"
+          style={{ "--i": "2", whiteSpace: "nowrap" }}
+        >
           WEATHER
         </a>
       </nav>

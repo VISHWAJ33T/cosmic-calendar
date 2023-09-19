@@ -38,9 +38,11 @@
     margin: 0px 15px;
     width: 500px;
     padding: 40px;
-    background: #25293e;
-    box-sizing: border-box;
+    background-color: #25293ed6;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-sizing: border-box;
     border-radius: 10px;
 }
 
@@ -145,6 +147,7 @@
         background-image: url("../../public/assets/images/earth-1.gif");
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 300px;
         /* background-attachment: fixed; */
     }
 

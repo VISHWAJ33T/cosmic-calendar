@@ -40,7 +40,7 @@
     height: 100%;
     padding: 3rem;
     background-color: #25293ed6;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    box-shadow: 0 15px 25px #00000099;
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     border-radius: .7rem;
@@ -147,5 +147,4 @@
     .container .box:hover {
         box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
     }
-
 }
